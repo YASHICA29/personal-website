@@ -1,102 +1,80 @@
 body{
-    text-align: center;
-    background: linear-gradient( #4287f5 0%,#4bf542 100%);
-}
-html
-{
-    scroll-behavior: smooth;
-}
-
-img{
-  width:300;
-  height:300;
-    border-radius: 50%;
-    
-}
-#myname{
-   font-family: 'Courgette', cursive;
+text-align:center;
+    padding-top:550px;
+    margin:0;
 }
 #welcome{
-     padding:25px;
-    
-    
-    
-}
-
-#welcome h1{
-    font-size: 40px;
+    position:absolute;
+    bottom:0;
+    display:table;
+    width:100%;
+    height:100%;
+    background:linear-gradient(#cafc03 0%,#ba03fc 100%);
+    z-index: 9;
 }
 h1{
-  
-  font-size:18px;
-}
-p{
-  font-size:18px;
-  color:#6A1B9A;
-    
+    font-size:35px;
+    font-family:cursive;
 }
 h2{
-  font-size:20px;
-  color:#003487;
+    font-size:40px;
+    font-family:monospace;
+}
+p{
+    font-size:20px;
+    font-family:serif;
+}
+#bio{
+    padding:50px;
 }
 .line{
-    height: 6px;
-    background-color: black;
+    height:6px;
     width:70px;
+    background-color:darkred;
     margin:8px auto;
-}
-#about{
-    padding-top:40px;
-    font-size:42;
-    background:pink;
+ 
 }
 .menu{
-   list-style: none;
-    font-family:cursive;
-   float:right;
-    top:10px;
-    right:30px;
+    list-style: none;
+    margin-top: 0px;
+    position:fixed;
+    top:0px;
+    width: 100%;
+    background: white;
+    z-index: 10;
     cursor: pointer;
-    color:black;
 }
-.menu a{
-    color:black !important;
-}
-
-
-.link{
-    color:crimson;
+.links{
     display: inline;
-    padding-top:5px;
-    padding-left:9px;
-    padding-right:9px;
-    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 18px;
+    font-family: inherit;
+    color: fuchsia;
 }
-   .link:hover{
-    background-color:beige;
+.links:hover{
+    background-color:darksalmon;
+    font-size: 25px;
+    text-decoration: underline;
 }
-
-#video{
-    padding-top:40px;
-    font-size:42;
-    background-color: darksalmon;
+a{
+    text-decoration: none;
 }
-#video a{
-    font-size: :30px;
-    
+#writings a{
+    text-decoration: underline;
+    color: black;
+    text-shadow: none;
 }
-
-.button {
-  background-color: #008CBA;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+#contact iframe{
+    width:100%;
 }
-a
-{
-  text-decoration:none;
+#contact{
+    background:lavender;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color: black;
+    text-shadow: none;
 }
